@@ -11,7 +11,7 @@ The product still has two identities:
 
 ## What v003 includes
 
-- Branded Tellus Gateway UI, logo mark, CSS theme, and brand pillars: Simple, Trusted, Regenerative, Frictionless.
+- Branded Cardano Gateway UI, logo mark, CSS theme, and brand pillars: Simple, Trusted, Regenerative, Frictionless.
 - Next.js App Router, TypeScript, Tailwind CSS, and React.
 - Email-first Passport profile onboarding stored in `localStorage`.
 - Native Cardano wallet connection through CIP-30 using Mesh SDK.
@@ -40,7 +40,7 @@ The product still has two identities:
 
 ## Routes
 
-- `/` Tellus Gateway landing page.
+- `/` Cardano Gateway landing page.
 - `/passport` Cardano Passport consumer onboarding demo.
 - `/claim/[slug]` Campaign claim page.
 - `/dashboard` Project dashboard demo.
