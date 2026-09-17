@@ -1,12 +1,12 @@
-# Tellus Gateway v003
+# Cardano Gateway v003
 
-Tellus Gateway v003 is a deployable Cardano-native onboarding prototype for Tellus Digital. It updates the earlier Cardano OnboardKit concept with the Tellus Gateway brand system: deep teal, aqua mint, soft mint, slate charcoal, warm gold, and the tagline:
+Cardano Gateway v003 is a deployable Cardano-native onboarding prototype for Tellus Digital. It updates the earlier Cardano OnboardKit concept with the Tellus Gateway brand system: deep teal, aqua mint, soft mint, slate charcoal, warm gold, and the tagline:
 
 > From email to ownership on Cardano.
 
 The product still has two identities:
 
-1. **Tellus Gateway**: the developer/platform layer for Cardano dApps.
+1. **Cardano Gateway**: the developer/platform layer for Cardano dApps.
 2. **Cardano Passport**: the consumer-facing demo app that proves the onboarding flow.
 
 ## What v003 includes
