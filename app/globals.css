@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --tellus-teal: #0E4D4A;
+  --tellus-aqua: #18B7B0;
+  --tellus-mint: #D8F4EE;
+  --tellus-charcoal: #243746;
+  --tellus-gold: #F2C14E;
+  --tellus-neutral: #F6F8F7;
+  --tellus-ink: #102A33;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--tellus-neutral);
+  color: var(--tellus-charcoal);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(24, 183, 176, 0.22);
+}
+
+.tellus-card {
+  border: 1px solid rgba(14, 77, 74, 0.12);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 22px 70px rgba(14, 77, 74, 0.12);
+}
+
+.tellus-input {
+  border-radius: 1rem;
+  border: 1px solid rgba(36, 55, 70, 0.16);
+  background: #ffffff;
+  color: var(--tellus-charcoal);
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.tellus-input:focus {
+  border-color: var(--tellus-aqua);
+  box-shadow: 0 0 0 4px rgba(24, 183, 176, 0.16);
+}
+
+.tellus-gold-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--tellus-gold), transparent);
+}
